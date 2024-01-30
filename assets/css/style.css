@@ -319,6 +319,112 @@ img{
   color: var(--first-color);
 }
 
+.skill_name{
+  display: flex;
+  align-items: center;
+}
+
+.skill_bar{
+  position: absolute;
+  left: 0;        
+  bottom: 0;
+  background-color: var(--first-color);
+  height: 0.25rem;
+  border-radius: 0.5rem;
+  z-index: var(--z-back);
+}
+.skill_html {
+  width: 95%;
+}
+
+.skill_css{
+  width: 85%;
+}
+
+.skill_js{
+  width: 75%;
+}
+
+
+.skill_ui {
+  width: 85%;
+}
+
+/* WORK */
+
+ .work{
+  text-align: center;
+ }
+
+ .work_container{
+  row-gap: 2rem;
+ }
+
+ .work_img{
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
+   }
+   
+   .work_img img {
+    transition: 1s;
+    cursor: pointer;
+   }
+
+   .work_img img:hover {
+    transform: scale(1.1);
+   }
+
+   /* contact */
+
+   .control_input{
+    width: 100%;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1.5px solid var(--second-color);
+    outline: none;
+    margin-bottom: var(--mb-4);
+     }
+
+     .control_button{
+      display: block;
+      border: none;
+      outline: none;
+      font-size: var(--normal-font-size);
+      cursor: pointer;
+      margin-left: auto; 
+     }
+
+     /* Footer */
+     .footer{
+      background-color: var(--second-color);
+      color: #fff;
+      text-align: center;
+      font-weight: var(--font-semi);
+      padding: 2rem 0;
+     }
+
+     .footer_title{
+      font-size: 2rem;
+      margin-bottom: var(--mb-4);
+     }
+
+     .footer_socials{
+      margin-bottom: var(--mb-4);
+     }
+
+     .footer_icon{
+      font-size: 1.5rem;
+      color: #fff;
+      margin: 0 var(--mb-2);
+     }
+      
+
+
+
+
 
 
 
